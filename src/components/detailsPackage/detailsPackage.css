@@ -1,0 +1,30 @@
+.detailsPackageContainer{
+  border: 1px solid transparent;
+  /* margin: 30px auto 30px auto; */
+  border-radius: 5px;
+  height: auto;
+  padding: 10px 0px 10px 0px;
+}
+
+.detailsTable{
+  display: flex;
+  flex-direction: column;
+}
+
+.packageInfoTitle{
+  color: #3f3f3f ;
+  font-weight: bold ;
+  margin: 10px;
+}
+
+.packageInfoTable{
+  color: #3f3f3f ;
+  font-weight: 600 ;
+}
+
+
+.tableContainer{
+  overflow: auto;
+  height: 400px;
+
+}

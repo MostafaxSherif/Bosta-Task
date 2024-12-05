@@ -1,0 +1,34 @@
+.redTextColor,
+.cancelledPackage{
+  color: #e30613;
+}
+
+.deliveredPackage{
+  color: #339900
+}
+.returnPackage{
+  color:#ffcc00
+}
+
+.arabicDirection{
+  direction: rtl;
+  height: 97%;
+}
+
+.line{
+  border-bottom: 1px solid #dbd8d8;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.imgLogo{
+  width: 150px;
+}
+.bold{
+  font-weight: bold;
+}
+
+.secondaryColor{
+  color:#989797
+}
+

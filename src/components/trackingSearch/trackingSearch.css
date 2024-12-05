@@ -1,0 +1,79 @@
+.mainTrackingContainer {
+  background-color: #fff;
+  position: absolute;
+  top: 70px;
+  width: 350px;
+  height: auto;
+  border: 1px solid #0000001a;
+  border-radius: 10px;
+  padding: 10px;
+  padding: 10px 30px 10px 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: flex-start;
+  z-index: 1;
+}
+
+.mainTrackingContainerRight{
+  right: -2px;
+  border-top-right-radius: 0;
+}
+
+.mainTrackingContainerLeft{
+  left: -2px;
+  border-top-left-radius: 0;
+}
+
+input[type="text"]::placeholder  {
+  font-family: 'Cairo', sans-serif;
+
+}
+.trackingSearchInput{
+  outline: none;
+  border: 1px solid #dbd8d8;
+  width: 75%;
+  padding: 15px;
+  flex: 1;
+  background-color: transparent;
+}
+.trackingSearchInputRight {
+
+  border-radius: 0px 5px 5px 0px;
+}
+
+.trackingSearchInputLeft {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.trackingHorizontalMargin{
+  margin:10px 0px 10px 0px
+}
+
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+.iconSearch{
+  width: 20px;
+  background-color: #e30613;
+  padding: 13px;
+  cursor: pointer;
+  transition: background-color 1s;
+}
+
+.iconSearch:hover{
+  background-color: #9b0812;
+}
+.iconSearchRight {
+
+  border-radius: 5px 0px 0px 5px;
+}
+
+.iconSearchLeft {
+  border-radius: 0px 5px 5px 0px;
+}
